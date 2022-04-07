@@ -1,0 +1,46 @@
+{
+    "type": "View",
+    "props": {
+        "name": "TipsUI",
+        "width": 500,
+        "height": 60,
+        "x": 0,
+        "y": 0,
+        "pivotX": 250,
+        "pivotY": 30,
+        "presetID": 1,
+        "isPresetRoot": true
+    },
+    "compId": 141,
+    "child": [{
+        "type": "Image",
+        "props": {
+            "skin": "",
+            "width": 500,
+            "height": 60,
+            "sizeGrid": "13,21,17,21",
+            "presetID": 2
+        },
+        "compId": 142
+    }, {
+        "type": "Label",
+        "props": {
+            "text": "提示框",
+            "width": 500,
+            "height": 60,
+            "color": "#B4CBC1",
+            "fontSize": 25,
+            "valign": "middle",
+            "align": "center",
+            "x": 250,
+            "y": 30,
+            "pivotX": 250,
+            "pivotY": 30,
+            "name": "Text",
+            "presetID": 3
+        },
+        "compId": 143
+    }],
+    "loadList": ["pipei/yjjx.png"],
+    "loadList3D": []
+}

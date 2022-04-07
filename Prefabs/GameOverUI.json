@@ -1,0 +1,307 @@
+{
+    "type": "View",
+    "props": {
+        "y": 0,
+        "x": 0,
+        "width": 640,
+        "presetID": 1,
+        "name": "GameOver",
+        "isPresetRoot": true,
+        "height": 1136
+    },
+    "compId": 117,
+    "child": [{
+        "type": "Sprite",
+        "props": {
+            "y": 0,
+            "x": 0,
+            "texture": "map/HSZZ0_1.png",
+            "presetID": 3,
+            "name": "bg"
+        },
+        "compId": 119
+    }, {
+        "type": "Sprite",
+        "props": {
+            "y": 0,
+            "x": 0,
+            "width": 640,
+            "presetID": 2,
+            "name": "red",
+            "height": 1136
+        },
+        "compId": 118,
+        "child": [{
+            "type": "Sprite",
+            "props": {
+                "y": 68,
+                "x": 0,
+                "width": 640,
+                "texture": "UI/winimg.png",
+                "presetID": 4,
+                "name": "win",
+                "height": 230
+            },
+            "compId": 120,
+            "child": [{
+                "type": "Label",
+                "props": {
+                    "y": 76,
+                    "centerX":0,
+                    "text": "Victory",
+                    "presetID": 38,
+                    "height": 78,
+                    "fontSize": 80,
+                    "color": "#adff00"
+                },
+                "compId": 259
+            }]
+        }, {
+            "type": "Sprite",
+            "props": {
+                "y": 68,
+                "x": 0,
+                "width": 640,
+                "texture": "UI/loseImg.png",
+                "presetID": 5,
+                "name": "loser",
+                "height": 230
+            },
+            "compId": 121,
+            "child": [{
+                "type": "Label",
+                "props": {
+                    "y": 76,
+                    "centerX":0,
+                    "text": "Failure",
+                    "presetID": 39,
+                    "height": 77,
+                    "fontSize": 80,
+                    "color": "#ff1400"
+                },
+                "compId": 260
+            }, {
+                "type": "Sprite",
+                "props": {
+                    "y": -9.5,
+                    "x": 342,
+                    "texture": "UI/xuezhua.png",
+                    "presetID": 40
+                },
+                "compId": 261
+            }]
+        }, {
+            "type": "Image",
+            "props": {
+                "y": 1024,
+                "x": 320,
+                "width": 364,
+                "skin": "StartGameUI/huiseBtn.png",
+                "presetID": 9,
+                "pivotY": 56,
+                "pivotX": 182,
+                "name": "rewardBtn_1",
+                "height": 112
+            },
+            "compId": 125,
+            "child": [{
+                "type": "Label",
+                "props": {
+                    "width": 364,
+                    "valign": "middle",
+                    "text": "Get",
+                    "presetID": 10,
+                    "height": 112,
+                    "fontSize": 35,
+                    "color": "#847372",
+                    "align": "center"
+                },
+                "compId": 126
+            }]
+        }, {
+            "type": "Image",
+            "props": {
+                "y": 875,
+                "x": 320,
+                "width": 364,
+                "skin": "StartGameUI/winBtn.png",
+                "presetID": 22,
+                "pivotY": 56,
+                "pivotX": 182,
+                "name": "rewardBtn_3",
+                "height": 112
+            },
+            "compId": 242,
+            "child": [{
+                "type": "Label",
+                "props": {
+                    "y": 56,
+                    "x": 235,
+                    "width": 309,
+                    "valign": "middle",
+                    "text": "Get x 3",
+                    "strokeColor": "#000000",
+                    "stroke": 5,
+                    "presetID": 23,
+                    "pivotY": 56,
+                    "pivotX": 182,
+                    "name": "t",
+                    "height": 112,
+                    "fontSize": 50,
+                    "color": "#63e05e",
+                    "align": "center"
+                },
+                "compId": 243
+            }, {
+                "type": "Image",
+                "props": {
+                    "y": 56,
+                    "x": 59,
+                    "width": 71,
+                    "skin": "StartGameUI/winADV.png",
+                    "presetID": 50,
+                    "pivotY": 27,
+                    "pivotX": 36,
+                    "name": "a",
+                    "height": 54
+                },
+                "compId": 276
+            }]
+        }, {
+            "type": "Sprite",
+            "props": {
+                "y": 659,
+                "x": 320,
+                "width": 268,
+                "texture": "UI/ggbai.png",
+                "presetID": 45,
+                "pivotY": 134,
+                "pivotX": 134,
+                "name": "gg",
+                "height": 268
+            },
+            "compId": 266
+        }, {
+            "type": "Sprite",
+            "props": {
+                "y": 282,
+                "x": 320,
+                "width": 124,
+                "texture": "UI/mvp.png",
+                "presetID": 25,
+                "pivotY": 36,
+                "pivotX": 62,
+                "name": "mvp",
+                "height": 72
+            },
+            "compId": 245
+        }, {
+            "type": "Sprite",
+            "props": {
+                "y": 659,
+                "x": 250,
+                "width": 99,
+                "texture": "StartGameUI/gold3.png",
+                "presetID": 42,
+                "pivotY": 50,
+                "pivotX": 50,
+                "height": 99
+            },
+            "compId": 263
+        }, {
+            "type": "Label",
+            "props": {
+                "y": 659,
+                "x": 382,
+                "width": 162,
+                "valign": "middle",
+                "text": "150",
+                "strokeColor": "#000000",
+                "stroke": 10,
+                "presetID": 43,
+                "pivotY": 37,
+                "pivotX": 81,
+                "name": "gold",
+                "height": 73,
+                "fontSize": 80,
+                "color": "#ffffff",
+                "bold": true,
+                "align": "left"
+            },
+            "compId": 264
+        }, {
+            "type": "Label",
+            "props": {
+                "y": 566,
+                "centerX":0,
+                "valign": "middle",
+                "text": "win",
+                "presetID": 44,
+                "name": "ttt",
+                "height": 43,
+                "fontSize": 40,
+                "color": "#ffffff",
+                "align": "center"
+            },
+            "compId": 265
+        }, {
+            "type": "Sprite",
+            "props": {
+                "y": 419,
+                "x": 320,
+                "width": 208,
+                "visible": false,
+                "texture": "StartGameUI/loseImg.png",
+                "presetID": 46,
+                "pivotY": 95,
+                "pivotX": 104,
+                "name": "loseImg",
+                "height": 190
+            },
+            "compId": 268,
+            "child": [{
+                "type": "Sprite",
+                "props": {
+                    "y": -44,
+                    "x": 181,
+                    "texture": "StartGameUI/loseqipao.png",
+                    "presetID": 47
+                },
+                "compId": 272,
+                "child": [{
+                    "type": "Label",
+                    "props": {
+                        "y": 3,
+                        "x": 11,
+                        "width": 159,
+                        "valign": "middle",
+                        "text": "oh i'm dead",
+                        "presetID": 48,
+                        "height": 76,
+                        "fontSize": 24,
+                        "color": "#000000",
+                        "bold": true,
+                        "align": "center"
+                    },
+                    "compId": 273
+                }]
+            }]
+        }, {
+            "type": "Image",
+            "props": {
+                "y": 419,
+                "x": 320,
+                "width": 200,
+                "visible": false,
+                "presetID": 49,
+                "pivotY": 100,
+                "pivotX": 100,
+                "name": "winImg",
+                "height": 200
+            },
+            "compId": 275
+        }]
+    }],
+    "loadList": ["map/HSZZ0_1.png", "UI/winimg.png", "UI/loseImg.png", "UI/xuezhua.png", "StartGameUI/huiseBtn.png", "StartGameUI/winBtn.png", "StartGameUI/winADV.png", "UI/ggbai.png", "UI/mvp.png", "StartGameUI/gold3.png", "StartGameUI/loseImg.png", "StartGameUI/loseqipao.png"],
+    "loadList3D": []
+}

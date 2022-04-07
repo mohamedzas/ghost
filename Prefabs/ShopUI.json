@@ -1,0 +1,253 @@
+{
+    "type": "Sprite",
+    "props": {
+        "y": 0,
+        "x": 0,
+        "width": 640,
+        "texture": "map/HSZZ0_1.png",
+        "presetID": 1,
+        "name": "ShopUI",
+        "isPresetRoot": true,
+        "height": 1136
+    },
+    "compId": 273,
+    "child": [{
+        "type": "Image",
+        "props": {
+            "x": 320,
+            "width": 520,
+            "top": 341,
+            "presetID": 2,
+            "pivotX": 260,
+            "name": "menu",
+            "height": 77,
+            "alpha": 1
+        },
+        "compId": 275,
+        "child": [{
+            "type": "Sprite",
+            "props": {
+                "y": 44,
+                "x": 261,
+                "width": 501,
+                "rotation": 0,
+                "presetID": 4,
+                "pivotY": 26,
+                "pivotX": 251,
+                "name": "select",
+                "height": 52
+            },
+            "compId": 149,
+            "child": [{
+                "type": "Image",
+                "props": {
+                    "y": 26,
+                    "x": 98,
+                    "width": 122,
+                    "skin": "UI/shopBtn.png",
+                    "sizeGrid": "13,15,17,17",
+                    "presetID": 5,
+                    "pivotY": 25,
+                    "pivotX": 61,
+                    "name": "menu1",
+                    "height": 50
+                },
+                "compId": 276,
+                "child": [{
+                    "type": "Label",
+                    "props": {
+                        "y": 0,
+                        "x": 0,
+                        "width": 122,
+                        "valign": "middle",
+                        "text": "Smart",
+                        "presetID": 6,
+                        "name": "text",
+                        "height": 50,
+                        "fontSize": 21,
+                        "color": "#ffffff",
+                        "align": "center"
+                    },
+                    "compId": 220
+                }]
+            }, {
+                "type": "Image",
+                "props": {
+                    "y": 25,
+                    "x": 267,
+                    "width": 122,
+                    "skin": "UI/shopBtn.png",
+                    "sizeGrid": "0,0,0,0",
+                    "presetID": 7,
+                    "pivotY": 25,
+                    "pivotX": 61,
+                    "name": "menu1",
+                    "height": 50
+                },
+                "compId": 221,
+                "child": [{
+                    "type": "Label",
+                    "props": {
+                        "y": 0,
+                        "x": 0,
+                        "width": 122,
+                        "valign": "middle",
+                        "text": "Brilliant",
+                        "presetID": 8,
+                        "name": "text",
+                        "height": 50,
+                        "fontSize": 21,
+                        "color": "#ffffff",
+                        "align": "center"
+                    },
+                    "compId": 222
+                }]
+            }, {
+                "type": "Image",
+                "props": {
+                    "y": 26,
+                    "x": 427,
+                    "width": 122,
+                    "skin": "UI/shopBtn.png",
+                    "sizeGrid": "0,0,0,0",
+                    "presetID": 9,
+                    "pivotY": 25,
+                    "pivotX": 61,
+                    "name": "menu1",
+                    "height": 50
+                },
+                "compId": 223,
+                "child": [{
+                    "type": "Label",
+                    "props": {
+                        "y": 0,
+                        "x": 0,
+                        "width": 123,
+                        "valign": "middle",
+                        "text": "Market",
+                        "presetID": 10,
+                        "name": "text",
+                        "height": 50,
+                        "fontSize": 21,
+                        "color": "#ffffff",
+                        "align": "center"
+                    },
+                    "compId": 224
+                }]
+            }]
+        }, {
+            "type": "Sprite",
+            "props": {
+                "y": -111,
+                "x": 31,
+                "texture": "load/shopTipsbg.png",
+                "presetID": 18
+            },
+            "compId": 289
+        }, {
+            "type": "Sprite",
+            "props": {
+                "y": -146,
+                "x": 195.5,
+                "texture": "load/mihuan.png",
+                "presetID": 19
+            },
+            "compId": 290
+        }, {
+            "type": "Label",
+            "props": {
+                "y": -36,
+                "x": 260,
+                "width": 520,
+                "visible": true,
+                "valign": "middle",
+                "underlineColor": "#000000",
+                "text": "Shop",
+                "strokeColor": "#000000",
+                "stroke": 8,
+                "presetID": 11,
+                "pivotY": 42,
+                "pivotX": 260,
+                "name": "UpText",
+                "height": 83,
+                "fontSize": 60,
+                "color": "#27AB81",
+                "bold": true,
+                "align": "center"
+            },
+            "compId": 216
+        }, {
+            "type": "Sprite",
+            "props": {
+                "y": 90,
+                "x": 260,
+                "width": 493,
+                "presetID": 12,
+                "pivotX": 247,
+                "name": "build",
+                "height": 360
+            },
+            "compId": 159
+        }, {
+            "type": "Sprite",
+            "props": {
+                "y": -58,
+                "x": 76,
+                "width": 103,
+                "texture": "load/close.png",
+                "presetID": 13,
+                "pivotY": 51,
+                "pivotX": 52,
+                "name": "close",
+                "height": 102
+            },
+            "compId": 277
+        }, {
+            "type": "Sprite",
+            "props": {
+                "y": -197,
+                "x": 23,
+                "width": 174,
+                "texture": "StartGameUI/goldBg.png",
+                "presetID": 16,
+                "pivotY": 31,
+                "height": 61
+            },
+            "compId": 286,
+            "child": [{
+                "type": "Sprite",
+                "props": {
+                    "y": 30.5,
+                    "x": 0,
+                    "width": 92,
+                    "texture": "StartGameUI/gold3.png",
+                    "presetID": 17,
+                    "pivotY": 48,
+                    "pivotX": 46,
+                    "height": 95
+                },
+                "compId": 287
+            }]
+        }, {
+            "type": "Label",
+            "props": {
+                "y": -197,
+                "x": 124,
+                "width": 110,
+                "valign": "middle",
+                "text": "10000",
+                "presetID": 15,
+                "pivotY": 26,
+                "pivotX": 55,
+                "name": "gold",
+                "height": 51,
+                "fontSize": 35,
+                "color": "#ffffff",
+                "align": "center"
+            },
+            "compId": 279
+        }]
+    }],
+    "loadList": ["map/HSZZ0_1.png", "UI/shopBtn.png", "load/shopTipsbg.png", "load/mihuan.png", "load/close.png", "StartGameUI/goldBg.png", "StartGameUI/gold3.png"],
+    "loadList3D": []
+}
